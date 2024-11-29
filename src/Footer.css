@@ -1,0 +1,13 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(51, 49, 49);
+    color: aliceblue;
+    padding: 35px;
+    margin-top: 20%;
+    height: 90%;
+}
