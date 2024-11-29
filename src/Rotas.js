@@ -1,18 +1,14 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
-import Transacoes from './Transacoes'
+import Header from "./provaHeader";
+import Transacoes from './Transacoes';
 
+// Define your routing component
 function Rotas() {
-    return (
-<BrowserRouter>
-<Routes>
-<Route path="/" element={<App />}/> 
-<Route index element={<App />} />
-<Route path="/home" element={<App />}></Route>
-<Route path="/transacoes" element={<Transacoes/>}></Route>
-</Routes>
-</BrowserRouter>
-    )}
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);
+
+}
+
+// Get the root element and render the routing component
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Rotas />);

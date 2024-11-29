@@ -1,17 +1,14 @@
 import React from 'react';
-import './App.css';
+import './Tabela.css';
 import Header from './provaHeader'
 import Footer from './Footer';
+import Tabela from './Tabela';
 function Transacoes() {
   return (
     <div className="App">
       <Header/>
-      <h1 className='homeTxt'>Home</h1>
-        <ul className='financas'>
-          <li><h2 className='h2Financas'>Testando</h2></li>
-          <li><h2 className='h2Financas'>Testando</h2></li>
-          <li><h2 className='h2Financas'>Testando</h2></li>
-        </ul>
+      <h1 className='tranTxt'>Transações</h1>
+      <Tabela/>
       <Footer/>
     </div>
   );
